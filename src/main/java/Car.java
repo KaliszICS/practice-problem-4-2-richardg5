@@ -1,3 +1,8 @@
+/**
+ * Class representing a car, comes with variables for make, model, year, and price
+ * @author Richard Gao
+ * @version 1.0.0
+ */
 public class Car {
     //instance variables
     private String make;

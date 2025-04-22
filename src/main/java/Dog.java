@@ -1,3 +1,8 @@
+/**
+ * Class representing a dog, comes with variables for name, breed, and weight
+ * @author Richard Gao
+ * @version 1.0.0
+ */
 public class Dog {
     // instance variables
     private String name;
