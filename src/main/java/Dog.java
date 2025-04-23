@@ -10,10 +10,10 @@ public class Dog {
     private int weight;
     
     /**
-     * Dog class constructor
-     * @param name Name of the dog
-     * @param breed Breed of the dog
-     * @param weight Weight of the dog as an int
+     * Creates an instance of the dog class with given name, breed, weight
+     * @param name a String representing the name of the dog
+     * @param breed a String representing the breed of the dog
+     * @param weight an int representing the weight of the dog
      */
     public Dog(String name, String breed, int weight) {
         this.name = name;
@@ -22,48 +22,48 @@ public class Dog {
     }
 
     /**
-     * Dog class name getter
-     * @return Name of the dog
+     * Gets the name of the dog
+     * @return a String representing the name of the dog
      */
     public String getName() {
         return this.name;
     }
 
     /** 
-     * Dog class breed getter
-     * @return Breed of the dog
+     * Gets the breed of the dog
+     * @return a Stirng representing the breed of the dog
      */
     public String getBreed() {
         return this.breed;
     }
 
     /**
-     * Dog class weight getter
-     * @return Weight of the dog as an int
+     * Gets the weight of the dog
+     * @return an int representing the weight of the dog
      */
     public int getWeight() {
         return this.weight;
     }
 
     /**
-     * Dog class name setter
-     * @param name New name of the dog
+     * Sets the name of the dog
+     * @param name a String the name of the dog is being set to
      */
     public void setName(String name) {
         this.name = name;
     }
 
     /**
-     * Dog class breed setter
-     * @param breed New breed of the dog
+     * Sets the breed of the dog
+     * @param breed a String the breed of the dog is being set to
      */
     public void setBreed(String breed) {
         this.breed = breed;
     }
 
     /**
-     * Dog class weight setter
-     * @param weight New weight of the dog as an int
+     * Sets the weight of the dog
+     * @param weight an int the weight of the dog is being set to
      */
     public void setWeight(int weight) {
         this.weight = weight;

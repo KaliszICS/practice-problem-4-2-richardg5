@@ -11,11 +11,11 @@ public class Car {
     private double price;
 
     /**
-     * Car class constructor
-     * @param make Make of the car
-     * @param model Model of the car
-     * @param year Year of the car as an int
-     * @param price Price of the car as a double
+     * Creates an instance of the car class with given make, model, year, and price
+     * @param make a String representing the make of the car
+     * @param model a String representing the model of the car
+     * @param year an int representing the year of the car
+     * @param price a double representing the price of the car
      */
     public Car(String make, String model, int year, double price) {
         this.make = make;
@@ -25,64 +25,64 @@ public class Car {
     }
 
     /**
-     * Car make getter
-     * @return Make of the car
+     * Gets the make of the car
+     * @return a String representing the make of the car
      */
     public String getMake() {
         return this.make;
     }
 
     /**
-     * Car model getter
-     * @return Model of the car
+     * Gets the model of the car
+     * @return a String representing the model of the car
      */
     public String getModel() {
         return this.model;
     }
 
     /**
-     * Car year getter
-     * @return Year of the car as an int
+     * Gets the year of the car
+     * @return an int representing the year of the car
      */
     public int getYear() {
         return this.year;
     }
 
     /**
-     * Car price getter
-     * @return Price of the car as a double
+     * Gets the price of the car
+     * @return a double representing the price of the car
      */
     public double getPrice() {
         return this.price;
     }
 
     /**
-     * Car make setter
-     * @param make New make of the car
+     * Sets the make of the car
+     * @param make a String the make of the car is being set to
      */
     public void setMake(String make) {
         this.make = make;
     }
 
     /**
-     * Car model setter
-     * @param model New model of the car
+     * Sets the model of the car
+     * @param model a String the model of the car is being set to
      */
     public void setModel(String model) {
         this.model = model;
     }
 
     /**
-     * Car year setter
-     * @param year New year of the car as an int
+     * Sets the year of the car
+     * @param year an int the year of the car is being set to
      */
     public void setYear(int year) {
         this.year = year;
     }
 
     /**
-     * Car price setter
-     * @param price New price of the car as a double
+     * Sets the price of the car
+     * @param price a double the price of the car is being set to
      */
     public void setPrice(double price) {
         this.price = price;
